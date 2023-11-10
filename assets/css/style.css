@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Nosifer&family=Notable&display=swap');
+@font-face{
+    font-family: 'fonte-titulo';
+    src: url("/assets/fontes/brice-black-expanded.otf");
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -19,13 +25,65 @@ header{
     display: flex;
 }
 
-.links ul{
-    display: flex;
-    list-style-type: none;
-    gap: 10px;
-}
 .logo img{
     width: 64px;
     height: auto;
     
+}
+
+.logo h1{
+    font-family: Notable;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+    color: #0C5394;
+}
+
+.links ul{
+    display: flex;
+    list-style-type: none;
+    gap: 80px;
+}
+
+.links a{
+    font-size: 10px;
+    font-family: Notable;
+    color: #0F0E46;
+    letter-spacing: 1.56px;
+}
+
+/*section 1 ***************/
+
+
+#section-1{
+    height: 90vh;
+    background-color: #000020; 
+    background-image: url("/assets/img/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    background-blend-mode:multiply;
+    z-index: -1;
+}
+
+.section1{
+    padding: 50px;
+}
+h1{
+    font-family: fonte-titulo;
+    color: #B5BCDB;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 3px;
+}
+span{
+    color: #1078F1;
+}
+
+p{
+    font-size: 12px;
+    font-family: Notable;
+    color: #B5BCDB;
 }
