@@ -27,7 +27,8 @@ header{
 
 .logo img{
     width: 64px;
-    height: auto;
+    height: 64px;
+    margin-top: 15px;
     
 }
 
@@ -70,6 +71,9 @@ header{
 
 .section1{
     padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
 }
 h1{
     font-family: fonte-titulo;
@@ -104,4 +108,19 @@ button{
     border-radius: 30px;
     font-family: notable;
     font-size: 10px;
+}
+.logo-principal{
+    display: flex;
+    flex-direction: column;
+    border-left: solid 5px #0C5394;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: dashed;
+    padding-left: 150px;
+    
+}
+.logo-principal img{
+    width: 250px;
+    margin-right: 100px;
 }
