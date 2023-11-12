@@ -9,6 +9,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: fonte-titulo;
 }
 
 header{
@@ -124,3 +125,60 @@ button{
     width: 250px;
     margin-right: 100px;
 }
+
+/*section 2 ***************/
+#section-2{
+    padding: 50px;
+}
+
+.section2{
+    width: 100%;
+    height: 80vh;
+}
+
+.section2 h1{
+    color: #000020;
+    margin-bottom: 30px;
+}
+
+.card-copete{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 20px;
+    color: #000020;
+    margin-top: 30px;
+}
+
+.card{
+    text-align: center;
+    background-color: #BFB5CC;
+    margin: 20px;
+    width: 600px;
+    height: auto;
+
+}
+
+.card img{
+    width: 90px;
+    height: auto;
+    margin: 20px;
+}
+
+.card ul{
+    margin-bottom: 20px;
+}
+
+.card li{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 2.3;
+    letter-spacing: 1.5px;
+    font-family: 'roboto';
+}
+
+
+
