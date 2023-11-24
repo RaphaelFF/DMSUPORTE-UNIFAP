@@ -248,9 +248,36 @@ h2{
     z-index: -1;
 }
 
+.section4{
+    padding: 50px;
+}
+
 .cards4{
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
+}
+
+.card4{
+    border: solid 1px #fff;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    width: 30%;
+}
+
+.card4 p{
+    width: auto;
+    font-size: 12px;
+}
+
+.icones4{
+    margin: 10px;
+}
+.icones4 a{
+    color: #fff;
+    font-size: 25px;
+    margin: 5px;
 }
 
 
