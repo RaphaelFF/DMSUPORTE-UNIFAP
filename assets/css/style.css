@@ -259,7 +259,12 @@ h2{
     margin-bottom: 50px;
 }
 
+.section4{
+    padding: 50px;
+}
+
 .cards4{
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
@@ -329,6 +334,28 @@ footer{
     align-items: center;
     text-align: center;
     padding: 40px;
+}
+
+.card4{
+    border: solid 1px #fff;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    width: 30%;
+}
+
+.card4 p{
+    width: auto;
+    font-size: 12px;
+}
+
+.icones4{
+    margin: 10px;
+}
+.icones4 a{
+    color: #fff;
+    font-size: 25px;
+    margin: 5px;
 }
 
 
