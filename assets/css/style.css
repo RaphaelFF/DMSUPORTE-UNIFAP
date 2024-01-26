@@ -56,6 +56,8 @@ header{
     letter-spacing: 1.56px;
 }
 
+
+
 /*section 1 ***************/
 
 
@@ -204,22 +206,24 @@ h2{
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
+    align-items: center;
 }
 
 .card3{
-    padding: auto;
     background-color: #000020;
     width: 400px;
-    height: auto;
     text-align: center;
 }
 
 .card3 p{
     width: auto;
     font-size: 8px;
+    margin-bottom: 10px;
 }
 .card3 h2{
     color: #fff;
+    width: auto;
+    padding: 5px;
 
 }
 .card3 img{
@@ -238,7 +242,7 @@ h2{
 
 /*section 4 ***************/
 #section-4{
-    height: 80vh;
+    height: auto;
     background-color: #000020; 
     background-image: url("/assets/img/fundo.png");
     background-repeat: no-repeat;
@@ -246,11 +250,86 @@ h2{
     opacity: 1;
     background-blend-mode:multiply;
     z-index: -1;
+    padding: 50px;
+}
+
+.section4{
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .cards4{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 100px;
+    align-items: center;
 }
+.card4{
+    width: 30%;
+    text-align: center;
+}
+
+.card4 p, h3{
+    width: auto;
+    color: #BFB5CC;
+}
+
+.card4 h3{
+    padding: 10px;
+}
+
+.icones4{
+    margin: 10px;
+}
+
+.icones4 a{
+    color: #0C5394;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: #191924;
+    width: 90%;
+    margin: auto;
+}
+
+.midia-social{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.midia-social a{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.rodape ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rodape ul li{
+    color: #fff;
+    border: solid 1px #0C5394;
+    padding: 10px;
+    width: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.fim{
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
 
 
